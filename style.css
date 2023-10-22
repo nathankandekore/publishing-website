@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #92D1C3;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.content {
+    /* max-width: 800px;
+    margin: 20px auto;
+    padding: 20px; */
+    /* background-image: "book-933280_1280.jpg"; */
+    /* background-color: #fff; */
+    /* border-radius: 5px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+
+        height: 100%;
+        background-image: url("books-1204029_1280.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 25%;
+        
+}
+
+.content .img{
+    opacity: 0.5;
+}
+
+/* .social-banner {
+    margin: 20px;
+}
+
+.social-banner a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-banner img {
+    width: 50px;
+    height: 50px;
+} */
+
+
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 20px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #2374b5;
+}
